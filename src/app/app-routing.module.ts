@@ -4,7 +4,7 @@ import { HomeComponent } from './views/home/home.component';
 import { RoomForumComponent } from './views/room-forum/room-forum.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'roomForum', pathMatch: 'full' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   {
     path: 'home',
     component: HomeComponent
